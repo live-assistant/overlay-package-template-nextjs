@@ -1,0 +1,7 @@
+{
+  "productId": "app.live-assistant.overlay.example.nextjs",
+  "protocolVersion": 0,
+  "name": "Overlay Example",
+  "basePath": "",
+  "overlays": []
+}

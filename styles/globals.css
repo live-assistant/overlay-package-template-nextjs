@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply relative;
+    @apply font-sans;
+    @apply box-border;
+  }
+
+  html, body, #__next {
+    @apply m-0;
+    @apply overflow-hidden;
+    @apply h-full;
+    @apply bg-transparent;
+    @apply select-none;
+    @apply selection:bg-transparent;
+  }
+}
